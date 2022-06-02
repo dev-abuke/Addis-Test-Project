@@ -1,0 +1,31 @@
+{
+  "name": "addis-test-project",
+  "version": "1.0.0",
+  "description": "a test project for internship",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-abuke/AddisTest.git"
+  },
+  "keywords": [
+    "addis"
+  ],
+  "author": "Abubeker Shamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-abuke/AddisTest/issues"
+  },
+  "homepage": "https://github.com/dev-abuke/AddisTest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "validator": "^13.7.0"
+  }
+}
